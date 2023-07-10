@@ -12,8 +12,6 @@ async function fetchData() {
     options
   );
   const record = await res.json();
-
-  console.log("record", record);
 }
 
 fetchData();
