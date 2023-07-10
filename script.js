@@ -12,6 +12,10 @@ async function fetchData() {
     options
   );
   const record = await res.json();
+
+  document.getElementById("concerts").innerHTML = record.data
+    .map((item) => `<li>${item.name}</li>`)
+    .join("");
 }
 
 fetchData();
