@@ -1,0 +1,11 @@
+{
+  "name": "Concert Tracker",
+  "version": "1.0.0",
+  "description": "upcoming concerts in London",
+  "manifest_version": 3,
+  "author": "Elicia Lobo",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Upcoming Concerts in London"
+  }
+}
